@@ -32,7 +32,7 @@
         android:layout_marginBottom="10dp"
         android:background="@color/black_shade_1"
         android:gravity="start|top"
-        android:hint="Enter your Note Details"
+        android:hint="Enter your Note Details."
         android:inputType="textMultiLine"
         android:singleLine="false"
         android:textColor="@color/white"
