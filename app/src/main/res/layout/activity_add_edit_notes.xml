@@ -17,7 +17,7 @@
         android:layout_marginBottom="10dp"
         android:hint="Enter Note Title"
         android:textColor="@color/white"
-        android:textColorHint="@color/white" />
+        android:textColorHint="@color/gray" />
 
     <!--edit text for note description-->
     <EditText
@@ -26,14 +26,17 @@
         android:layout_height="match_parent"
         android:layout_above="@id/idBtn"
         android:layout_below="@id/idEdtNoteName"
-        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:background="@color/black_shade_1"
         android:gravity="start|top"
         android:hint="Enter your Note Details"
         android:inputType="textMultiLine"
         android:singleLine="false"
         android:textColor="@color/white"
-        android:textColorHint="@color/white" />
+        android:textColorHint="@color/gray" />
 
     <!--button for saving and updating a note-->
     <Button
