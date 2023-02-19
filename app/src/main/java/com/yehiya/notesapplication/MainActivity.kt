@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity(), NoteClickInterface, NoteClickDeleteInt
         // adapter to our recycler view.
         notesRV.adapter = noteRVAdapter
 
-        // on below line we are
+        // on below line we are.
         // initializing our view modal.
         viewModal = ViewModelProvider(
             this, ViewModelProvider.AndroidViewModelFactory.getInstance(application)
